@@ -1,0 +1,30 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #d06b27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .incompleted {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .completed {
+    color: #d06b27;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+  .TodoWrapper{
+    background: white;
+    margin-top: 65px;
+    padding: 30px;
+    border-radius: 15px;
+  }
